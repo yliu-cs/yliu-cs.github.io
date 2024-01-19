@@ -18,9 +18,9 @@ My research interest lies in the intersection of computer vision (CV) and natura
 
 ## 🎓 Education
 
-- **2021.09 - Present** *Soochow University*, Computer Science and Technology
+- **[2021.09 - Present]** *Soochow University*, Computer Science and Technology
     - GPA: 3.51/4.0, CET-6: 435, IELTS: 6.0
-- **2017.09 - 2021.06** *Henan University*, Software Engineering
+- **[2017.09 - 2021.06]** *Henan University*, Software Engineering
     - GPA: 3.40/4.0, CET-4: 461
     - **[2019.07 - 2020.07]** ACM-ICPC Training Team Captain in School of Software
 
