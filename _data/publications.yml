@@ -1,22 +1,29 @@
 main:
 
-  - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
-    authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
-    conference_short: MICCAI
-    conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
+  - title: "Comment-Aware Multi-Modal Heterogeneous Pre-Training for Humor Detection in Short-Form Videos"
+    authors: <strong>Yang Liu</strong>, Huanqin Ping, Dong Zhang, Qingying Sun, Shoushan Li, Guodong Zhou
+    conference_short: ECAI
+    conference: European Conference on Artificial Intelligence <strong>(ECAI)</strong>, 2023.
     pdf: https://arxiv.org/pdf/2306.00988.pdf
-    code: https://github.com/MrGiovanni/ContinualLearning
-    bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
-    notes: Early Accept
+    code: https://github.com/yliu-cs/CMHP
+    bibtex: https://dblp.org/rec/conf/ecai/LiuPZSLZ23.html?view=bibtex
+    image: ./assets/img/pub/cmhp.png
+    notes: 1min Oral Highlight
 
-  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
-    conference_short: CVPR
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Oral Presentation
-    image: ./assets/img/teaser_example.png
+  - title: "Comment-aided Video-Language Alignment via Contrastive Pre-training for Short-form Video Humor Detection"
+    authors: <strong>Yang Liu</strong>, Tongfei Shen, Dong Zhang, Qingying Sun, Shoushan Li, Guodong Zhou
+    conference_short: TACL
+    conference: Transactions of the Association for Computational Linguistics <strong>(TACL)</strong>, 2024.
+    # pdf: https://arxiv.org/pdf/2002.10211.pdf
+    code: https://github.com/yliu-cs/CVLA
+    image: ./assets/img/pub/cvla.png
+    notes: Under Review
+
+  - title: "PiTe: Pixel-Temporal Alignment for Large Video-Language Model"
+    authors: <strong>Yang Liu</strong>, Pengxiang Ding, Donglin Wang
+    conference_short: ECCV
+    conference: European Conference on Computer Vision <strong>(ECCV)</strong>, 2024.
+    # pdf: https://arxiv.org/pdf/2002.10211.pdf
+    code: https://github.com/yliu-cs/PiTe
+    image: ./assets/img/pub/pite.png
+    notes: Under Research
