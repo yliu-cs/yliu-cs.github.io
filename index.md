@@ -20,9 +20,11 @@ My research interest lies in the intersection of computer vision (CV) and natura
 
 - **[2021.09 - Present]** *Soochow University*, Computer Science and Technology
     - GPA: 3.51/4.0, CET-6: 435, IELTS: 6.0
+    - **2021 - 2023** *The First, Third, First Prize Scholarship*
 - **[2017.09 - 2021.06]** *Henan University*, Software Engineering
     - GPA: 3.40/4.0, CET-4: 461
-    - **[2019.07 - 2020.07]** ACM-ICPC Training Team Captain in School of Software
+    - **2018 - 2020** *Scholarship &amp; Merit Student*, **2021** *Excellent Graduates*
+    - **2019.07 - 2020.07** ACM-ICPC Training Team Captain in School of Software
 
 {% include_relative _includes/publications.md %}
 
@@ -53,16 +55,6 @@ My research interest lies in the intersection of computer vision (CV) and natura
 
 - **[2019.05]** *Gold Medal*, ACM-ICPC Henan Provincial Contest
 - **[2019.04]** *Gold Medal*, China Collegiate Programming Contest - Henan Provincial Contest
-
-#### Scholastic
-
-- **[2023.10]** *The First Prize Scholarship*, Soochow University
-- **[2022.10]** *The Third Prize Scholarship*, Soochow University
-- **[2021.10]** *The First Prize Scholarship*, Soochow University
-- **[2021.03]** *Excellent Graduates*, Henan University
-- **[2020.10]** *Scholarship &amp; Merit Student*, Henan University
-- **[2019.10]** *Scholarship &amp; Merit Student*, Henan University
-- **[2018.10]** *Scholarship &amp; Merit Student*, Henan University
 
 ## Services
 
