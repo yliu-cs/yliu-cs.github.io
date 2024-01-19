@@ -7,7 +7,7 @@ main:
     pdf: https://arxiv.org/pdf/2306.00988.pdf
     code: https://github.com/yliu-cs/CMHP
     bibtex: https://dblp.org/rec/conf/ecai/LiuPZSLZ23.html?view=bibtex
-    image: ./assets/img/pub/cmhp.png
+    image: ./assets/img/pub/cmhp.jpg
     notes: 1min Oral Highlight
 
   - title: "Comment-aided Video-Language Alignment via Contrastive Pre-training for Short-form Video Humor Detection"
@@ -16,7 +16,7 @@ main:
     conference: Transactions of the Association for Computational Linguistics <strong>(TACL)</strong>, 2024.
     # pdf: https://arxiv.org/pdf/2002.10211.pdf
     code: https://github.com/yliu-cs/CVLA
-    image: ./assets/img/pub/cvla.png
+    image: ./assets/img/pub/cvla.jpg
     notes: Under Review
 
   - title: "PiTe: Pixel-Temporal Alignment for Large Video-Language Model"
@@ -25,5 +25,5 @@ main:
     conference: European Conference on Computer Vision <strong>(ECCV)</strong>, 2024.
     # pdf: https://arxiv.org/pdf/2002.10211.pdf
     code: https://github.com/yliu-cs/PiTe
-    image: ./assets/img/pub/pite.png
+    image: ./assets/img/pub/pite.jpg
     notes: Under Research
