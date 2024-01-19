@@ -4,7 +4,7 @@ main:
     authors: <strong>Yang Liu</strong>, Huanqin Ping, Dong Zhang, Qingying Sun, Shoushan Li, Guodong Zhou
     conference_short: ECAI
     conference: European Conference on Artificial Intelligence <strong>(ECAI)</strong>, 2023.
-    pdf: https://arxiv.org/pdf/2306.00988.pdf
+    pdf: https://ebooks.iospress.nl/doi/10.3233/FAIA230438
     code: https://github.com/yliu-cs/CMHP
     bibtex: https://dblp.org/rec/conf/ecai/LiuPZSLZ23.html?view=bibtex
     image: ./assets/img/pub/cmhp.jpg
