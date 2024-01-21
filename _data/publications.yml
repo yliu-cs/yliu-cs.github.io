@@ -10,7 +10,7 @@ main:
     code: yliu-cs/CMHP
     bibtex: https://dblp.org/rec/conf/ecai/LiuPZSLZ23.html?view=bibtex
     image: ./assets/img/pub/cmhp.jpg
-    notes: 1min%20Oral%20Highlight-B31B1B
+    notes: 1min Oral Highlight
 
   - title: "Comment-aided Video-Language Alignment via Contrastive Pre-training for Short-form Video Humor Detection"
     authors: <strong>Yang Liu</strong>, Tongfei Shen, Dong Zhang, Qingying Sun, Shoushan Li, Guodong Zhou
@@ -19,7 +19,7 @@ main:
     # doi: https://arxiv.org/pdf/2002.10211.pdf
     code: yliu-cs/CVLA
     # image: ./assets/img/pub/cvla.jpg
-    notes: Under%20Review-FCE38A
+    notes: Under Review
 
   - title: "PiTe: Pixel-Temporal Alignment for Large Video-Language Model"
     authors: <strong>Yang Liu</strong>, Pengxiang Ding, Donglin Wang
@@ -28,4 +28,4 @@ main:
     # doi: https://arxiv.org/pdf/2002.10211.pdf
     code: yliu-cs/PiTe
     # image: ./assets/img/pub/pite.jpg
-    notes: Under%20Research-FCE38A
+    notes: Under Research
