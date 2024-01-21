@@ -16,7 +16,7 @@
     {% endif %}
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="{{ link.url }}">{{ link.title }}</a></div>
+      <div class="title"><a href="{{ link.doi }}">{{ link.title }}</a></div>
       <div class="author">{{ link.authors }}</div>
       <div class="periodical"><em>{{ link.conference }}</em>
       </div>
@@ -24,8 +24,8 @@
       {% if link.page %}
       <a href="{{ link.page }}" class="btn-badge" target="_blank" style="font-size:12px;">Project Page</a>
       {% endif %}
-      {% if link.url %}
-      <a href="{{ link.url }}" class="btn-badge" target="_blank" style="font-size:12px;"><img src="https://img.shields.io/badge/DOI-10.3233%2FFAIA230438-3F72AF?style=flat-square&labelColor=DBE2EF"></a>
+      {% if link.doi %}
+      <a href="https://doi.org/{{ link.doi }}" class="btn-badge" target="_blank" style="font-size:12px;"><img src="https://img.shields.io/badge/{{ link.doi }}-3F72AF?style=flat-square&labelColor=000000&logo=doi&logoColor=F0B941"></a>
       {% endif %}
       {% if link.pdf %}
       <a href="{{ link.pdf }}" class="btn-badge" target="_blank" style="font-size:12px;"><img src="https://img.shields.io/badge/PDF-D6D6D6?style=flat-square&logo=files"></a>
