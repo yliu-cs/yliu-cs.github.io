@@ -8,7 +8,6 @@ main:
     doi: 10.3233/FAIA230438
     pdf: https://ebooks.iospress.nl/pdf/doi/10.3233/FAIA230438
     code: yliu-cs/CMHP
-    semantic: 0a443f86b3d518fd99dedcd68ec8bffc1548497a
     bibtex: https://dblp.org/rec/conf/ecai/LiuPZSLZ23.html?view=bibtex
     image: ./assets/img/pub/cmhp.jpg
     notes: 1min%20Oral%20Highlight-B31B1B

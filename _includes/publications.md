@@ -22,26 +22,22 @@
       </div>
     <div class="links">
       {% if link.page %}
-      [Project Page]({{ link.page }})
+      <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
       {% endif %}
       {% if link.doi %}
-      [![DOI](https://img.shields.io/badge/{{ link.doi }}-3F72AF?style=flat-square&labelColor=000000&logo=doi&logoColor=F0B941)](https://doi.org/{{ link.doi }})
+      <a href="https://doi.org/{{ link.doi }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;"><i class="ai ai-doi">DOI | {{ link.doi }}</i></a>
       {% endif %}
       {% if link.pdf %}
-      [![PDF](https://img.shields.io/badge/PDF-D6D6D6?style=flat-square&logo=files)]({{ link.pdf }})
-      {% endif %}
-      {% if link.semantic %}
-      [![Semantic Scholar](https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/{{ link.semantic }}?fields=citationCount&style=flat-square&logo=semanticscholar&color=EFD471&labelColor=2B56B0)](https://www.semanticscholar.org/paper/{{ link.semantic }})
+      <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       {% endif %}
       {% if link.bibtex %}
-      [![BibTex](https://img.shields.io/badge/BibTex-fae176.svg?style=flat-square&logo=dblp&labelColor=5A80C4)]({{ link.bibtex }})
+      <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;"><i class="ai ai-dblp">BibTex</i></a>
       {% endif %}
       {% if link.code %}
-      <a href="" class="btn-badge" target="_blank" style="font-size:12px;"><img src=""></a>
-      [![{{ link.code }}](https://img.shields.io/github/stars/{{ link.code }}?style=flat-square&logo=github&label={{ link.code }}&labelColor=393E46&color=00ADB5)](https://github.com/{{ link.code }})
+      <a href="https://github.com/{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;"><i class="ai ai-github">{{ link.code }}</i></a>
       {% endif %}
       {% if link.notes %}
-      ![Notes](https://img.shields.io/badge/{{ link.notes }}?style=flat-square)
+      <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>
       {% endif %}
       {% if link.others %}
       {{ link.others }}
