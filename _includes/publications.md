@@ -25,19 +25,19 @@
       <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
       {% endif %}
       {% if link.doi %}
-      <a href="https://doi.org/{{ link.doi }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;"><i class="ai ai-doi"></i>DOI | {{ link.doi }}</a>
+      <a href="https://doi.org/{{ link.doi }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;"><i class="ai ai-doi"></i>{{ link.doi }}</a>
       {% endif %}
       {% if link.pdf %}
-      <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;"><i class="fa-regular fa-file-pdf"></i>PDF</a>
       {% endif %}
       {% if link.bibtex %}
       <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;"><i class="ai ai-dblp"></i>BibTex</a>
       {% endif %}
       {% if link.code %}
-      <a href="https://github.com/{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;"><i class="ai ai-github"></i>{{ link.code }}</a>
+      <a href="https://github.com/yliu-cs/{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;"><i class="fab fa-github"></i>{{ link.code }}</a>
       {% endif %}
       {% if link.notes %}
-      <strong> <i style="color:#e74d3c"></i>{{ link.notes }}</strong>
+      <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>
       {% endif %}
       {% if link.others %}
       {{ link.others }}

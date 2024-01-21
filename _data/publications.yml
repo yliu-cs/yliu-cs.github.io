@@ -7,7 +7,7 @@ main:
     # page: None
     doi: 10.3233/FAIA230438
     pdf: https://ebooks.iospress.nl/pdf/doi/10.3233/FAIA230438
-    code: yliu-cs/CMHP
+    code: CMHP
     bibtex: https://dblp.org/rec/conf/ecai/LiuPZSLZ23.html?view=bibtex
     image: ./assets/img/pub/cmhp.jpg
     notes: 1min Oral Highlight
@@ -17,7 +17,7 @@ main:
     # conference_short: TACL on Submit
     conference: Transactions of the Association for Computational Linguistics <strong>(TACL)</strong>, 2024.
     # doi: https://arxiv.org/pdf/2002.10211.pdf
-    code: yliu-cs/CVLA
+    code: CVLA
     # image: ./assets/img/pub/cvla.jpg
     notes: Under Review
 
@@ -26,6 +26,6 @@ main:
     # conference_short: ECCV'24 will Submit
     conference: European Conference on Computer Vision <strong>(ECCV)</strong>, 2024.
     # doi: https://arxiv.org/pdf/2002.10211.pdf
-    code: yliu-cs/PiTe
+    code: PiTe
     # image: ./assets/img/pub/pite.jpg
     notes: Under Research
