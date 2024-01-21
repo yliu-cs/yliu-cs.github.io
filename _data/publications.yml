@@ -2,7 +2,7 @@ main:
 
   - title: "Comment-aided Video-Language Alignment via Contrastive Pre-training for Short-form Video Humor Detection"
     authors: <strong>Yang Liu</strong>, Tongfei Shen, Dong Zhang, Qingying Sun, Shoushan Li, Guodong Zhou
-    # conference_short: TACL on Submit
+    conference_short: TACL on Submit
     conference: Transactions of the Association for Computational Linguistics <strong>(TACL)</strong>, 2024.
     # doi: https://arxiv.org/pdf/2002.10211.pdf
     code: CVLA
