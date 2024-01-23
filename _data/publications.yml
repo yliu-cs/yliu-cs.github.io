@@ -1,18 +1,18 @@
 main:
   - title: "PiTe: Pixel-Temporal Alignment for Large Video-Language Model"
-    authors: <strong>Yang Liu</strong>, Pengxiang Ding, Donglin Wang
-    conference_short: ECCV'24 will Submit
+    authors: <strong>Yang Liu</strong>, Pengxiang Ding, Han Zhao, Siteng Huang, Donglin Wang
+    conference_short: Work in Progress
     conference: European Conference on Computer Vision <strong>(ECCV)</strong>, 2024.
     code: PiTe
     image: ./assets/img/pub/pite.jpg
-    notes: Under Research
+    # notes: Work in Progress
   - title: "Comment-aided Video-Language Alignment via Contrastive Pre-training for Short-form Video Humor Detection"
     authors: <strong>Yang Liu</strong>, Tongfei Shen, Dong Zhang, Qingying Sun, Shoushan Li, Guodong Zhou
     conference_short: TACL on Submit
     conference: Transactions of the Association for Computational Linguistics <strong>(TACL)</strong>, 2024.
     code: CVLA
     image: ./assets/img/pub/cvla.jpg
-    notes: Under Review
+    # notes: Under Review
   - title: "Comment-Aware Multi-Modal Heterogeneous Pre-Training for Humor Detection in Short-Form Videos"
     authors: <strong>Yang Liu</strong>, Huanqin Ping, Dong Zhang, Qingying Sun, Shoushan Li, Guodong Zhou
     conference_short: ECAI'23
@@ -22,4 +22,4 @@ main:
     code: CMHP
     bibtex: https://dblp.org/rec/conf/ecai/LiuPZSLZ23.html?view=bibtex
     image: ./assets/img/pub/cmhp.jpg
-    notes: 1min Oral Highlight
+    # notes: 1min Oral Highlight

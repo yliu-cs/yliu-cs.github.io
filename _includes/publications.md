@@ -17,7 +17,7 @@
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
       {% if link.doi %}
-      <div class="title"><a href="https://doi.org/{{ link.doi }}">{{ link.title }}</a></div>
+      <div class="title"><a href="https://doi.org/{{ link.doi }}" target="_blank">{{ link.title }}</a></div>
       {% else %}
       <div class="title"><a href="">{{ link.title }}</a></div>
       {% endif %}
