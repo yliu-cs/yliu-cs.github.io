@@ -30,8 +30,10 @@
       {% endif %}
       {% if link.arxiv %}
       <a href="https://arxiv.org/abs/{{ link.arxiv }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;"><i class="ai ai-arxiv" style="color:rgb(164,44,37);"></i>&nbsp;{{ link.arxiv }}</a>
-      {% elif link.doi %}
-      <a href="https://doi.org/{{ link.doi }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;"><i class="ai ai-doi"></i>&nbsp;{{ link.doi }}</a>
+      {% else %}
+        {% if link.doi %}
+        <a href="https://doi.org/{{ link.doi }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;"><i class="ai ai-doi"></i>&nbsp;{{ link.doi }}</a>
+        {% endif %}
       {% endif %}
       {% if link.pdf %}
       <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;"><i class="far fa-file-pdf"></i>&nbsp;PDF</a>
