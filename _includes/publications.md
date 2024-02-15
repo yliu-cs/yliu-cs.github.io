@@ -28,7 +28,9 @@
       {% if link.page %}
       <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;"><i class="fas fa-home"></i>&nbsp;Project Page</a>
       {% endif %}
-      {% if link.doi %}
+      {% if link.arxiv %}
+      <a href="https://arxiv.org/abs/{{ link.arxiv }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;"><i class="ai ai-arxiv" style="color:rgb(164,44,37);"></i>&nbsp;{{ link.arxiv }}</a>
+      {% elif link.doi %}
       <a href="https://doi.org/{{ link.doi }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;"><i class="ai ai-doi"></i>&nbsp;{{ link.doi }}</a>
       {% endif %}
       {% if link.pdf %}

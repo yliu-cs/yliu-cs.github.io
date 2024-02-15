@@ -8,8 +8,10 @@ main:
     # notes: Work in Progress
   - title: "Comment-aided Video-Language Alignment via Contrastive Pre-training for Short-form Video Humor Detection"
     authors: <strong>Yang Liu</strong>, Tongfei Shen, Dong Zhang, Qingying Sun, Shoushan Li, Guodong Zhou
-    conference_short: Work in Progress
-    # conference: Transactions of the Association for Computational Linguistics <strong>(TACL)</strong>, 2024.
+    conference_short: arXiv
+    # conference: ACM International Conference on Multimedia Retrieval <strong>(ICMR)</strong>, 2024.
+    arxiv: 2402.09055
+    doi: 10.48550/arXiv.2402.09055
     code: CVLA
     image: ./assets/img/pub/cvla.jpg
     # notes: Under Review
