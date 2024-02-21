@@ -5,17 +5,16 @@ main:
     # conference: European Conference on Computer Vision <strong>(ECCV)</strong>, 2024.
     code: PiTe
     image: ./assets/img/pub/pite.jpg
-    # notes: Work in Progress
   - title: "Comment-aided Video-Language Alignment via Contrastive Pre-training for Short-form Video Humor Detection"
     authors: <strong>Yang Liu</strong>, Tongfei Shen, Dong Zhang, Qingying Sun, Shoushan Li, Guodong Zhou
     conference_short: arXiv
     # conference: ACM International Conference on Multimedia Retrieval <strong>(ICMR)</strong>, 2024.
     arxiv: 2402.09055
-    doi: 10.48550/arXiv.2402.09055
+    # doi: 10.48550/arXiv.2402.09055
     pdf: https://arxiv.org/pdf/2402.09055.pdf
     code: CVLA
+    bibtex: https://dblp.org/rec/journals/corr/abs-2402-09055.html?view=bibtex
     image: ./assets/img/pub/cvla.jpg
-    # notes: Under Review
   - title: "Comment-Aware Multi-Modal Heterogeneous Pre-Training for Humor Detection in Short-Form Videos"
     authors: <strong>Yang Liu</strong>, Huanqin Ping, Dong Zhang, Qingying Sun, Shoushan Li, Guodong Zhou
     conference_short: ECAI'23
