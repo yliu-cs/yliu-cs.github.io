@@ -4,4 +4,4 @@ I am a final-year Master’s student at [School of Computer Science &amp; Techno
 
 My research interest lies in the intersection of computer vision (CV) and natural language processing (NLP).
 
-**I’m applying Ph.D. position in the 2024 Fall.**
+**I’m actively applying Ph.D. opportunity in the 2024 Fall.**
