@@ -7,8 +7,8 @@ main:
     image: ./assets/img/pub/pite.jpg
   - title: "Comment-aided Video-Language Alignment via Contrastive Pre-training for Short-form Video Humor Detection"
     authors: <strong>Yang Liu</strong>, Tongfei Shen, Dong Zhang, Qingying Sun, Shoushan Li, Guodong Zhou
-    conference_short: arXiv
-    # conference: ACM International Conference on Multimedia Retrieval <strong>(ICMR)</strong>, 2024.
+    conference_short: ICMR'24
+    conference: ACM International Conference on Multimedia Retrieval <strong>(ICMR)</strong>, 2024.
     arxiv: 2402.09055
     # doi: 10.48550/arXiv.2402.09055
     pdf: https://arxiv.org/pdf/2402.09055.pdf
