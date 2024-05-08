@@ -10,7 +10,7 @@ main:
     conference_short: ICMR'24
     conference: ACM International Conference on Multimedia Retrieval <strong>(ICMR)</strong>, 2024.
     arxiv: 2402.09055
-    # doi: 10.48550/arXiv.2402.09055
+    # doi: 10.1145/3652583.3658094
     pdf: https://arxiv.org/pdf/2402.09055.pdf
     code: CVLA
     bibtex: https://dblp.org/rec/journals/corr/abs-2402-09055.html?view=bibtex
