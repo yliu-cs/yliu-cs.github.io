@@ -1,6 +1,6 @@
 ## 💼 Internships
 
-- **[2023.12 - Present]** *Machine Intelligence Laboratory (MiLAB), Westlake University*, Visiting Intern
+- **[2023.12 - 2024.08]** *Machine Intelligence Laboratory (MiLAB), Westlake University*, Visiting Intern
     - Advised by [Prof. Donglin Wang](https://www.westlake.edu.cn/faculty/donglin-wang.html), collaborate with [Ph.D. Stu. Pengxiang Ding](https://scholar.google.com/citations?user=QyBSTzEAAAAJ)
     - Trajectory-Guided Video-Language Alignment across both Spatial and Temporal
 - **[2020.07 - 2020.09]** *NetEase Games*, Game Development Engineer Intern
