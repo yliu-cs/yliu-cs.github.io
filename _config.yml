@@ -1,20 +1,20 @@
 # Basic Information 
 title: Yang Liu
-position: M.S. Student
-affiliation: Soochow University
-email: yliucs@stu.suda.edu.cn
+position: Ph.D. Student
+affiliation: Westlake University
+email: liuyang67@westlake.edu.cn
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
 keywords: Yang Liu
 description: Yang Liu's academic personal homepage.
-canonical: https://yliu-cs.github.io/
+canonical: https://yliu-cs.github.io
 
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
 google_scholar: https://scholar.google.com/citations?user=orbCoA8AAAAJ
 semantic_scholar: https://www.semanticscholar.org/author/Yang-Liu/2260197083
-cv_link: assets/files/cv.pdf
+# cv_link: assets/files/cv.pdf
 github_link: https://github.com/yliu-cs
 # linkedin: https://www.linkedin.com/
 # twitter: https://twitter.com/
