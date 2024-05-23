@@ -7,7 +7,7 @@ main:
   #   image: ./assets/img/pub/pite.jpg
   - title: "Comment-aided Video-Language Alignment via Contrastive Pre-training for Short-form Video Humor Detection"
     authors: <strong>Yang Liu</strong>, Tongfei Shen, Dong Zhang, Qingying Sun, Shoushan Li, Guodong Zhou
-    conference_short: ICMR'24
+    # conference_short: ICMR'24
     conference: ACM International Conference on Multimedia Retrieval <strong>(ICMR)</strong>, 2024.
     arxiv: 2402.09055
     # doi: 10.1145/3652583.3658094
@@ -17,7 +17,7 @@ main:
     # image: ./assets/img/pub/cvla.jpg
   - title: "Comment-Aware Multi-Modal Heterogeneous Pre-Training for Humor Detection in Short-Form Videos"
     authors: <strong>Yang Liu</strong>, Huanqin Ping, Dong Zhang, Qingying Sun, Shoushan Li, Guodong Zhou
-    conference_short: ECAI'23
+    # conference_short: ECAI'23
     conference: European Conference on Artificial Intelligence <strong>(ECAI)</strong>, 2023.
     doi: 10.3233/FAIA230438
     pdf: https://ebooks.iospress.nl/pdf/doi/10.3233/FAIA230438
