@@ -9,11 +9,11 @@ main:
     authors: <strong>Yang Liu</strong>, Tongfei Shen, Dong Zhang, Qingying Sun, Shoushan Li, Guodong Zhou
     conference_short: ICMR'24
     conference: ACM International Conference on Multimedia Retrieval <strong>(ICMR)</strong>, 2024.
-    arxiv: 2402.09055
-    # doi: 10.1145/3652583.3658094
-    pdf: https://arxiv.org/pdf/2402.09055.pdf
+    # arxiv: 2402.09055
+    doi: 10.1145/3652583.3658094
+    pdf: https://dl.acm.org/doi/pdf/10.1145/3652583.3658094
     code: CVLA
-    bibtex: https://dblp.org/rec/journals/corr/abs-2402-09055.html?view=bibtex
+    bibtex: https://dblp.org/rec/conf/mir/LiuSZSLZ24.html?view=bibtex
     image: ./assets/img/pub/cvla.jpg
   - title: "Comment-Aware Multi-Modal Heterogeneous Pre-Training for Humor Detection in Short-Form Videos"
     authors: <strong>Yang Liu</strong>, Huanqin Ping, Dong Zhang, Qingying Sun, Shoushan Li, Guodong Zhou
