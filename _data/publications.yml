@@ -1,10 +1,10 @@
 main:
-  # - title: "PiTe: Pixel-Temporal Alignment for Large Video-Language Model"
-  #   authors: <strong>Yang Liu<sup>*</sup></strong>, Pengxiang Ding<sup>*</sup>, Siteng Huang, Min Zhang, Han Zhao, Donglin Wang
-  #   conference_short: Work in Progress
-  #   # conference: European Conference on Computer Vision <strong>(ECCV)</strong>, 2024.
-  #   code: PiTe
-  #   image: ./assets/img/pub/pite.jpg
+  - title: "PiTe: Pixel-Temporal Alignment for Large Video-Language Model"
+    authors: <strong>Yang Liu<sup>*</sup></strong>, Pengxiang Ding<sup>*</sup>, Siteng Huang, Min Zhang, Han Zhao, Donglin Wang
+    conference_short: ECCV'24
+    conference: European Conference on Computer Vision <strong>(ECCV)</strong>, 2024.
+    code: PiTe
+    image: ./assets/img/pub/pite.jpg
   - title: "Comment-aided Video-Language Alignment via Contrastive Pre-training for Short-form Video Humor Detection"
     authors: <strong>Yang Liu</strong>, Tongfei Shen, Dong Zhang, Qingying Sun, Shoushan Li, Guodong Zhou
     conference_short: ICMR'24
