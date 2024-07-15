@@ -45,6 +45,9 @@
       {% if link.bibtex %}
       <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;"><i class="ai ai-dblp"></i>&nbsp;BibTex</a>
       {% endif %}
+      {% if link.dataset %}
+      <a href="{{ link.dataset }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;"><i class="fas fa-database"></i>&nbsp;Dataset</a>
+      {% endif %}
       {% if link.code %}
       <a href="https://github.com/yliu-cs/{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;"><i class="fab fa-github"></i>&nbsp;{{ link.code }}</a>
       {% endif %}

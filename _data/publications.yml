@@ -4,6 +4,7 @@ main:
     conference_short: ECCV'24
     conference: European Conference on Computer Vision <strong>(ECCV)</strong>, 2024.
     code: PiTe
+    dataset: https://yliu-cs.github.io/PiTe/
     image: ./assets/img/pub/pite.jpg
   - title: "Comment-aided Video-Language Alignment via Contrastive Pre-training for Short-form Video Humor Detection"
     authors: <strong>Yang Liu</strong>, Tongfei Shen, Dong Zhang, Qingying Sun, Shoushan Li, Guodong Zhou
