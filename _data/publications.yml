@@ -14,6 +14,7 @@ main:
     doi: 10.1145/3652583.3658094
     pdf: https://dl.acm.org/doi/pdf/10.1145/3652583.3658094
     code: CVLA
+    dataset: https://pan.baidu.com/s/1HLwTlMDG8NnS3yMV3Y5AJA?pwd=3a9x
     bibtex: https://dblp.org/rec/conf/mir/LiuSZSLZ24.html?view=bibtex
     image: ./assets/img/pub/cvla.jpg
   - title: "Comment-Aware Multi-Modal Heterogeneous Pre-Training for Humor Detection in Short-Form Videos"
