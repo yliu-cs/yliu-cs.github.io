@@ -2,7 +2,7 @@ main:
   - title: "PiTe: Pixel-Temporal Alignment for Large Video-Language Model"
     authors: <strong>Yang Liu<sup>*</sup></strong>, Pengxiang Ding<sup>*</sup>, Siteng Huang, Min Zhang, Han Zhao, Donglin Wang
     conference_short: ECCV'24
-    conference: European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, <strong><i style="color:#e74d3c">Oral</i></strong>.
+    conference: European Conference on Computer Vision <strong>(ECCV)</strong>, 2024. (<strong><i style="color:#e74d3c">Oral</i></strong>)
     code: PiTe
     dataset: https://yliu-cs.github.io/PiTe/
     image: ./assets/img/pub/pite.jpg
@@ -12,7 +12,7 @@ main:
     conference: ACM International Conference on Multimedia Retrieval <strong>(ICMR)</strong>, 2024.
     # arxiv: 2402.09055
     doi: 10.1145/3652583.3658094
-    pdf: https://dl.acm.org/doi/pdf/10.1145/3652583.3658094
+    # pdf: https://dl.acm.org/doi/pdf/10.1145/3652583.3658094
     code: CVLA
     dataset: https://pan.baidu.com/s/1HLwTlMDG8NnS3yMV3Y5AJA?pwd=3a9x
     bibtex: https://dblp.org/rec/conf/mir/LiuSZSLZ24.html?view=bibtex
@@ -22,7 +22,7 @@ main:
     conference_short: ECAI'23
     conference: European Conference on Artificial Intelligence <strong>(ECAI)</strong>, 2023.
     doi: 10.3233/FAIA230438
-    pdf: https://ebooks.iospress.nl/pdf/doi/10.3233/FAIA230438
+    # pdf: https://ebooks.iospress.nl/pdf/doi/10.3233/FAIA230438
     code: CMHP
     bibtex: https://dblp.org/rec/conf/ecai/LiuPZSLZ23.html?view=bibtex
     image: ./assets/img/pub/cmhp.jpg
