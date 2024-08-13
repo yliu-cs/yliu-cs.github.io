@@ -2,7 +2,7 @@ main:
   - title: "PiTe: Pixel-Temporal Alignment for Large Video-Language Model"
     authors: <strong>Yang Liu<sup>*</sup></strong>, Pengxiang Ding<sup>*</sup>, Siteng Huang, Min Zhang, Han Zhao, Donglin Wang
     conference_short: ECCV'24
-    conference: European Conference on Computer Vision <strong>(ECCV)</strong>, 2024. (<strong><i style="color:#e74d3c">_Oral_</i></strong>)
+    conference: European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, <strong><i style="color:#e74d3c">Oral</i></strong>.
     code: PiTe
     dataset: https://yliu-cs.github.io/PiTe/
     image: ./assets/img/pub/pite.jpg
