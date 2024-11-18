@@ -3,9 +3,11 @@ main:
     authors: <strong>Yang Liu<sup>*</sup></strong>, Pengxiang Ding<sup>*</sup>, Siteng Huang, Min Zhang, Han Zhao, Donglin Wang
     conference_short: ECCV'24
     conference: European Conference on Computer Vision <strong>(ECCV, <i style="color:#e74d3c">Oral</i>)</strong>, 2024.
-    arxiv: 2409.07239
+    # arxiv: 2409.07239
+    doi: 10.1007/978-3-031-72652-1_10
     code: PiTe
     dataset: https://yliu-cs.github.io/PiTe/
+    bibtex: https://dblp.org/rec/conf/eccv/LiuDHZZW24.html?view=bibtex
     image: ./assets/img/pub/pite.jpg
   - title: "Comment-aided Video-Language Alignment via Contrastive Pre-training for Short-form Video Humor Detection"
     authors: <strong>Yang Liu</strong>, Tongfei Shen, Dong Zhang, Qingying Sun, Shoushan Li, Guodong Zhou
