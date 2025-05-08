@@ -7,15 +7,18 @@
 
 <li>
 <div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    {% if link.image %}
-    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
-    {% endif %}
-    {% if link.conference_short %}
-    <abbr class="badge">{{ link.conference_short }}</abbr>
-    {% endif %}
-  </div>
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+  {% if link.image %}
+    <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+      <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
+      {% if link.conference_short %}
+      <abbr class="badge">{{ link.conference_short }}</abbr>
+      {% endif %}
+    </div>
+    <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+  {% endif %}
+  {% else %}
+    <div class="col-sm-12" style="position: relative;padding-right: 15px;padding-left: 20px;">
+  {% endif %}
       {% if link.doi %}
       <div class="title"><a href="https://doi.org/{{ link.doi }}" target="_blank">{{ link.title }}</a></div>
       {% else %}
