@@ -49,7 +49,7 @@
       <a href="{{ link.dataset }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;"><i class="fas fa-database"></i>&nbsp;Dataset</a>
       {% endif %}
       {% if link.code %}
-      <a href="https://github.com/yliu-cs/{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;"><i class="fab fa-github"></i>&nbsp;{{ link.code }}</a>
+      <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;"><i class="fab fa-github"></i>&nbsp;{{ link.code.rstrip('/').split('/')[-1] }}</a>
       {% endif %}
       {% if link.notes %}
       <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>
