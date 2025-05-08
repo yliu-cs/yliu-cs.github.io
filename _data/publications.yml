@@ -9,24 +9,25 @@ main:
     dataset: https://yliu-cs.github.io/PiTe/
     bibtex: https://dblp.org/rec/conf/eccv/LiuDHZZW24.html?view=bibtex
     image: ./assets/img/pub/pite.jpg
+  - title: "OpenHelix: A Short Survey, Empirical Analysis, and Open-Source Dual-System VLA Model for Robotic Manipulation"
+    authors: Can Cui<sup>*</sup>, Pengxiang Ding<sup>*</sup>, Wenxuan Song, Shuanghao Bai, Xinyang Tong, Zirui Ge, Runze Suo, Wanqi Zhou, <strong>Yang Liu</strong>, Bofang Jia, Han Zhao, Siteng Huang, Donglin Wang
+    conference: arXiv
+    arxiv: 2505.03912
+    code: https://github.com/OpenHelix-robot/OpenHelix
   - title: "Comment-aided Video-Language Alignment via Contrastive Pre-training for Short-form Video Humor Detection"
     authors: <strong>Yang Liu</strong>, Tongfei Shen, Dong Zhang, Qingying Sun, Shoushan Li, Guodong Zhou
-    conference_short: ICMR'24
+    # conference_short: ICMR'24
     conference: ACM International Conference on Multimedia Retrieval <strong>(ICMR)</strong>, 2024.
     doi: 10.1145/3652583.3658094
     code: https://github.com/yliu-cs/CVLA
     dataset: https://pan.baidu.com/s/1HLwTlMDG8NnS3yMV3Y5AJA?pwd=3a9x
     bibtex: https://dblp.org/rec/conf/mir/LiuSZSLZ24.html?view=bibtex
-    image: ./assets/img/pub/cvla.jpg
+    # image: ./assets/img/pub/cvla.jpg
   - title: "Comment-Aware Multi-Modal Heterogeneous Pre-Training for Humor Detection in Short-Form Videos"
     authors: <strong>Yang Liu</strong>, Huanqin Ping, Dong Zhang, Qingying Sun, Shoushan Li, Guodong Zhou
-    conference_short: ECAI'23
+    # conference_short: ECAI'23
     conference: European Conference on Artificial Intelligence <strong>(ECAI)</strong>, 2023.
     doi: 10.3233/FAIA230438
     code: https://github.com/yliu-cs/CMHP
     bibtex: https://dblp.org/rec/conf/ecai/LiuPZSLZ23.html?view=bibtex
-    image: ./assets/img/pub/cmhp.jpg
-  - title: "OpenHelix: A Short Survey, Empirical Analysis, and Open-Source Dual-System VLA Model for Robotic Manipulation"
-    authors: Can Cui<sup>*</sup>, Pengxiang Ding<sup>*</sup>, Wenxuan Song, Shuanghao Bai, Xinyang Tong, Zirui Ge, Runze Suo, Wanqi Zhou, <strong>Yang Liu</strong>, Bofang Jia, Han Zhao, Siteng Huang, Donglin Wang
-    arxiv: 2505.03912
-    code: https://github.com/OpenHelix-robot/OpenHelix
+    # image: ./assets/img/pub/cmhp.jpg
