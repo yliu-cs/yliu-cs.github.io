@@ -14,11 +14,8 @@
       <abbr class="badge">{{ link.conference_short }}</abbr>
       {% endif %}
     </div>
+  {% endif %}
     <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-  {% endif %}
-  {% else %}
-    <div class="col-sm-12" style="position: relative;padding-right: 15px;padding-left: 20px;">
-  {% endif %}
       {% if link.doi %}
       <div class="title"><a href="https://doi.org/{{ link.doi }}" target="_blank">{{ link.title }}</a></div>
       {% else %}
