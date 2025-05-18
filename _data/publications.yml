@@ -1,9 +1,15 @@
 main:
+  - title: "SSR: Enhancing Depth Perception in Vision-Language Models via Rationale-Guided Spatial Reasoning"
+    authors: <strong>Yang Liu<sup>*</sup></strong>, Ming Ma<sup>*</sup>, Xiaomin Yu<sup>*</sup>, Pengxiang Ding, Han Zhao, Mingyang Sun, Siteng Huang, Donglin Wang
+    conference_short: preprint
+    conference: arXiv, 2025
+    page: https://yliu-cs.github.io/SSR
+    code: https://github.com/yliu-cs/SSR
+    image: ./assets/img/pub/ssr.jpg
   - title: "PiTe: Pixel-Temporal Alignment for Large Video-Language Model"
     authors: <strong>Yang Liu<sup>*</sup></strong>, Pengxiang Ding<sup>*</sup>, Siteng Huang, Min Zhang, Han Zhao, Donglin Wang
     conference_short: ECCV'24
     conference: European Conference on Computer Vision <strong>(ECCV, <i style="color:#e74d3c">Oral</i>)</strong>, 2024.
-    # arxiv: 2409.07239
     doi: 10.1007/978-3-031-72652-1_10
     code: https://github.com/yliu-cs/PiTe
     dataset: https://yliu-cs.github.io/PiTe
@@ -17,18 +23,14 @@ main:
     code: https://github.com/OpenHelix-robot/OpenHelix
   - title: "Comment-aided Video-Language Alignment via Contrastive Pre-training for Short-form Video Humor Detection"
     authors: <strong>Yang Liu</strong>, Tongfei Shen, Dong Zhang, Qingying Sun, Shoushan Li, Guodong Zhou
-    # conference_short: ICMR'24
     conference: ACM International Conference on Multimedia Retrieval <strong>(ICMR)</strong>, 2024.
     doi: 10.1145/3652583.3658094
     code: https://github.com/yliu-cs/CVLA
     dataset: https://pan.baidu.com/s/1HLwTlMDG8NnS3yMV3Y5AJA?pwd=3a9x
     bibtex: https://dblp.org/rec/conf/mir/LiuSZSLZ24.html?view=bibtex
-    # image: ./assets/img/pub/cvla.jpg
   - title: "Comment-Aware Multi-Modal Heterogeneous Pre-Training for Humor Detection in Short-Form Videos"
     authors: <strong>Yang Liu</strong>, Huanqin Ping, Dong Zhang, Qingying Sun, Shoushan Li, Guodong Zhou
-    # conference_short: ECAI'23
     conference: European Conference on Artificial Intelligence <strong>(ECAI)</strong>, 2023.
     doi: 10.3233/FAIA230438
     code: https://github.com/yliu-cs/CMHP
     bibtex: https://dblp.org/rec/conf/ecai/LiuPZSLZ23.html?view=bibtex
-    # image: ./assets/img/pub/cmhp.jpg
