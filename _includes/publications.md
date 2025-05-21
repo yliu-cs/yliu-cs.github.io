@@ -59,6 +59,9 @@
       {% if link.notes %}
       <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>
       {% endif %}
+      {% if link.semantic %}
+      <a href="https://www.semanticscholar.org/paper/{{ link.semantic }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;"><i class="ai ai-semantic-scholar"></i>&nbsp;Citations <span class="citation-count" data-paper-id="{{ link.semantic }}">(0)</span></a>
+      {% endif %}
       {% if link.others %}
       {{ link.others }}
       {% endif %}
