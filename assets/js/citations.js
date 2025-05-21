@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // 为每个元素获取引用数
     citationElements.forEach(element => {
         const paperId = element.getAttribute('data-paper-id');
+        console.log(paperId);
         if (paperId) {
             fetchCitationCount(paperId, element);
         }
@@ -17,9 +18,9 @@ async function fetchCitationCount(paperId, element) {
         const data = await response.json();
         
         if (data.citationCount !== undefined) {
-            element.textContent = `(${data.citationCount})`;
+            element.textContent = `${data.citationCount}`;
         } else {
-            element.textContent = '(0)';
+            element.textContent = '0';
         }
     } catch (error) {
         console.error('Error fetching citation count:', error);
