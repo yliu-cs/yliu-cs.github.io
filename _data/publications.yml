@@ -7,6 +7,13 @@ main:
     page: https://yliu-cs.github.io/SSR
     code: https://github.com/yliu-cs/SSR
     semantic: a8b9ae79e58786f19d4fc4992fb3bf7ae1891f57
+  - title: "OpenHelix: A Short Survey, Empirical Analysis, and Open-Source Dual-System VLA Model for Robotic Manipulation"
+    authors: Can Cui<sup>*</sup>, Pengxiang Ding<sup>*</sup>, Wenxuan Song, Shuanghao Bai, Xinyang Tong, Zirui Ge, Runze Suo, Wanqi Zhou, <strong>Yang Liu</strong>, Bofang Jia, Han Zhao, Siteng Huang, Donglin Wang
+    conference: arXiv, 2025
+    arxiv: 2505.03912
+    page: https://openhelix-robot.github.io
+    code: https://github.com/OpenHelix-robot/OpenHelix
+    semantic: 9df30a275fe274c9da9300caf2023ab2170cf276
   - title: "PiTe: Pixel-Temporal Alignment for Large Video-Language Model"
     authors: <strong>Yang Liu<sup>*</sup></strong>, Pengxiang Ding<sup>*</sup>, Siteng Huang, Min Zhang, Han Zhao, Donglin Wang
     conference_short: ECCV'24
@@ -16,13 +23,6 @@ main:
     dataset: https://yliu-cs.github.io/PiTe
     bibtex: https://dblp.org/rec/conf/eccv/LiuDHZZW24.html?view=bibtex
     semantic: 13533fd66425486da20df73851e190c6ceddfc0c
-  - title: "OpenHelix: A Short Survey, Empirical Analysis, and Open-Source Dual-System VLA Model for Robotic Manipulation"
-    authors: Can Cui<sup>*</sup>, Pengxiang Ding<sup>*</sup>, Wenxuan Song, Shuanghao Bai, Xinyang Tong, Zirui Ge, Runze Suo, Wanqi Zhou, <strong>Yang Liu</strong>, Bofang Jia, Han Zhao, Siteng Huang, Donglin Wang
-    conference: arXiv, 2025
-    arxiv: 2505.03912
-    page: https://openhelix-robot.github.io
-    code: https://github.com/OpenHelix-robot/OpenHelix
-    semantic: 9df30a275fe274c9da9300caf2023ab2170cf276
   - title: "Comment-aided Video-Language Alignment via Contrastive Pre-training for Short-form Video Humor Detection"
     authors: <strong>Yang Liu</strong>, Tongfei Shen, Dong Zhang, Qingying Sun, Shoushan Li, Guodong Zhou
     conference: ACM International Conference on Multimedia Retrieval <strong>(ICMR)</strong>, 2024.
