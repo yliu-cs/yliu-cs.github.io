@@ -1,4 +1,8 @@
 main:
+  - title: "Long-VLA: Unleashing Long-Horizon Capability of Vision Language Action Model for Robot Manipulation"
+    authors: Yiguo Fan, Shuanghao Bai, Xinyang Tong, Pengxiang Ding, Yuyang Zhu, Hongchao Lu, Fengqi Dai, Wei Zhao, <strong>Yang Liu</strong>, Siteng Huang, Zhaoxin Fan, Badong Chen, Donglin Wang
+    conference_short: CoRL'25
+    conference: Conference on Robot Learning <strong>(CoRL)</strong>, 2025.
   - title: "SSR: Enhancing Depth Perception in Vision-Language Models via Rationale-Guided Spatial Reasoning"
     authors: <strong>Yang Liu<sup>*</sup></strong>, Ming Ma<sup>*</sup>, Xiaomin Yu<sup>*</sup>, Pengxiang Ding, Han Zhao, Mingyang Sun, Siteng Huang, Donglin Wang
     conference_short: preprint
