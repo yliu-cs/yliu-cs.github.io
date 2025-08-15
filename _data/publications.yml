@@ -10,14 +10,16 @@ main:
     arxiv: 2505.12448
     page: https://yliu-cs.github.io/SSR
     code: https://github.com/yliu-cs/SSR
-    semantic: a8b9ae79e58786f19d4fc4992fb3bf7ae1891f57
+    bibtex: https://dblp.org/rec/journals/corr/abs-2505-12448.html?view=bibtex
+    # semantic: a8b9ae79e58786f19d4fc4992fb3bf7ae1891f57
   - title: "OpenHelix: A Short Survey, Empirical Analysis, and Open-Source Dual-System VLA Model for Robotic Manipulation"
     authors: Can Cui<sup>*</sup>, Pengxiang Ding<sup>*</sup>, Wenxuan Song, Shuanghao Bai, Xinyang Tong, Zirui Ge, Runze Suo, Wanqi Zhou, <strong>Yang Liu</strong>, Bofang Jia, Han Zhao, Siteng Huang, Donglin Wang
     conference: arXiv, 2025
     arxiv: 2505.03912
     page: https://openhelix-robot.github.io
     code: https://github.com/OpenHelix-robot/OpenHelix
-    semantic: 9df30a275fe274c9da9300caf2023ab2170cf276
+    bibtex: https://dblp.org/rec/journals/corr/abs-2505-03912.html?view=bibtex
+    # semantic: 9df30a275fe274c9da9300caf2023ab2170cf276
   - title: "PiTe: Pixel-Temporal Alignment for Large Video-Language Model"
     authors: <strong>Yang Liu<sup>*</sup></strong>, Pengxiang Ding<sup>*</sup>, Siteng Huang, Min Zhang, Han Zhao, Donglin Wang
     conference_short: ECCV'24
@@ -26,7 +28,7 @@ main:
     code: https://github.com/yliu-cs/PiTe
     dataset: https://yliu-cs.github.io/PiTe
     bibtex: https://dblp.org/rec/conf/eccv/LiuDHZZW24.html?view=bibtex
-    semantic: 13533fd66425486da20df73851e190c6ceddfc0c
+    # semantic: 13533fd66425486da20df73851e190c6ceddfc0c
   - title: "Comment-aided Video-Language Alignment via Contrastive Pre-training for Short-form Video Humor Detection"
     authors: <strong>Yang Liu</strong>, Tongfei Shen, Dong Zhang, Qingying Sun, Shoushan Li, Guodong Zhou
     conference: ACM International Conference on Multimedia Retrieval <strong>(ICMR)</strong>, 2024.
@@ -34,11 +36,11 @@ main:
     code: https://github.com/yliu-cs/CVLA
     dataset: https://pan.baidu.com/s/1HLwTlMDG8NnS3yMV3Y5AJA?pwd=3a9x
     bibtex: https://dblp.org/rec/conf/mir/LiuSZSLZ24.html?view=bibtex
-    semantic: d5159ca4fbfc555157b6c2093edf2f11f40c2242
+    # semantic: d5159ca4fbfc555157b6c2093edf2f11f40c2242
   - title: "Comment-Aware Multi-Modal Heterogeneous Pre-Training for Humor Detection in Short-Form Videos"
     authors: <strong>Yang Liu</strong>, Huanqin Ping, Dong Zhang, Qingying Sun, Shoushan Li, Guodong Zhou
     conference: European Conference on Artificial Intelligence <strong>(ECAI)</strong>, 2023.
     doi: 10.3233/FAIA230438
     code: https://github.com/yliu-cs/CMHP
     bibtex: https://dblp.org/rec/conf/ecai/LiuPZSLZ23.html?view=bibtex
-    semantic: 0a443f86b3d518fd99dedcd68ec8bffc1548497a
+    # semantic: 0a443f86b3d518fd99dedcd68ec8bffc1548497a
