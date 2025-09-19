@@ -1,8 +1,8 @@
 main:
   - title: "SSR: Enhancing Depth Perception in Vision-Language Models via Rationale-Guided Spatial Reasoning"
     authors: <strong>Yang Liu<sup>*</sup></strong>, Ming Ma<sup>*</sup>, Xiaomin Yu<sup>*</sup>, Pengxiang Ding<sup>*</sup>, Han Zhao, Mingyang Sun, Siteng Huang, Donglin Wang
-    conference_short: The Annual Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2025.
-    conference: NeurIPS'25
+    conference_short: NeurIPS'25
+    conference: The Annual Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2025.
     arxiv: 2505.12448
     page: https://yliu-cs.github.io/SSR
     code: https://github.com/yliu-cs/SSR
