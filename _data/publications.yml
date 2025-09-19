@@ -8,20 +8,6 @@ main:
     code: https://github.com/yliu-cs/SSR
     bibtex: https://dblp.org/rec/journals/corr/abs-2505-12448.html?view=bibtex
     # semantic: a8b9ae79e58786f19d4fc4992fb3bf7ae1891f57
-  - title: "Long-VLA: Unleashing Long-Horizon Capability of Vision Language Action Model for Robot Manipulation"
-    authors: Yiguo Fan<sup>*</sup>, Pengxiang Ding<sup>*</sup>, Shuanghao Bai<sup>*</sup>, Xinyang Tong<sup>*</sup>, Yuyang Zhu, Hongchao Lu, Fengqi Dai, Wei Zhao, <strong>Yang Liu</strong>, Siteng Huang, Zhaoxin Fan, Badong Chen, Donglin Wang
-    conference_short: CoRL'25
-    conference: Conference on Robot Learning <strong>(CoRL)</strong>, 2025.
-    arxiv: 2508.19958
-    page: https://long-vla.github.io
-  - title: "OpenHelix: A Short Survey, Empirical Analysis, and Open-Source Dual-System VLA Model for Robotic Manipulation"
-    authors: Can Cui<sup>*</sup>, Pengxiang Ding<sup>*</sup>, Wenxuan Song, Shuanghao Bai, Xinyang Tong, Zirui Ge, Runze Suo, Wanqi Zhou, <strong>Yang Liu</strong>, Bofang Jia, Han Zhao, Siteng Huang, Donglin Wang
-    conference: arXiv, 2025
-    arxiv: 2505.03912
-    page: https://openhelix-robot.github.io
-    code: https://github.com/OpenHelix-robot/OpenHelix
-    bibtex: https://dblp.org/rec/journals/corr/abs-2505-03912.html?view=bibtex
-    # semantic: 9df30a275fe274c9da9300caf2023ab2170cf276
   - title: "PiTe: Pixel-Temporal Alignment for Large Video-Language Model"
     authors: <strong>Yang Liu<sup>*</sup></strong>, Pengxiang Ding<sup>*</sup>, Siteng Huang, Min Zhang, Han Zhao, Donglin Wang
     conference_short: ECCV'24
@@ -46,3 +32,17 @@ main:
     code: https://github.com/yliu-cs/CMHP
     bibtex: https://dblp.org/rec/conf/ecai/LiuPZSLZ23.html?view=bibtex
     # semantic: 0a443f86b3d518fd99dedcd68ec8bffc1548497a
+  - title: "Long-VLA: Unleashing Long-Horizon Capability of Vision Language Action Model for Robot Manipulation"
+    authors: Yiguo Fan<sup>*</sup>, Pengxiang Ding<sup>*</sup>, Shuanghao Bai<sup>*</sup>, Xinyang Tong<sup>*</sup>, Yuyang Zhu, Hongchao Lu, Fengqi Dai, Wei Zhao, <strong>Yang Liu</strong>, Siteng Huang, Zhaoxin Fan, Badong Chen, Donglin Wang
+    conference_short: CoRL'25
+    conference: Conference on Robot Learning <strong>(CoRL)</strong>, 2025.
+    arxiv: 2508.19958
+    page: https://long-vla.github.io
+  - title: "OpenHelix: A Short Survey, Empirical Analysis, and Open-Source Dual-System VLA Model for Robotic Manipulation"
+    authors: Can Cui<sup>*</sup>, Pengxiang Ding<sup>*</sup>, Wenxuan Song, Shuanghao Bai, Xinyang Tong, Zirui Ge, Runze Suo, Wanqi Zhou, <strong>Yang Liu</strong>, Bofang Jia, Han Zhao, Siteng Huang, Donglin Wang
+    conference: arXiv, 2025
+    arxiv: 2505.03912
+    page: https://openhelix-robot.github.io
+    code: https://github.com/OpenHelix-robot/OpenHelix
+    bibtex: https://dblp.org/rec/journals/corr/abs-2505-03912.html?view=bibtex
+    # semantic: 9df30a275fe274c9da9300caf2023ab2170cf276
