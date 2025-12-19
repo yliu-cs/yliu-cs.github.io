@@ -46,3 +46,10 @@ main:
     code: https://github.com/OpenHelix-robot/OpenHelix
     bibtex: https://dblp.org/rec/journals/corr/abs-2505-03912.html?view=bibtex
     # semantic: 9df30a275fe274c9da9300caf2023ab2170cf276
+  - title: "HiF-VLA: Hindsight, Insight and Foresight through Motion Representation for Vision-Language-Action Models"
+    authors: Minghui Lin, Pengxiang Ding, Shu Wang, Zifeng Zhuang, <strong>Yang Liu</strong>, Xinyang Tong, Wenxuan Song, Shangke Lyu, Siteng Huang, Donglin Wang
+    conference: arXiv, 2025
+    arxiv: 2512.09928
+    page: https://hifvla.github.io
+    code: https://github.com/OpenHelix-Team/HiF-VLA
+    # bibtex: https://dblp.org/rec/journals/corr/abs-2505-03912.html?view=bibtex
