@@ -31,7 +31,7 @@ main:
     bibtex: https://dblp.org/rec/conf/ecai/LiuPZSLZ23.html?view=bibtex
     # semantic: 0a443f86b3d518fd99dedcd68ec8bffc1548497a
   - title: "FRAPPE: Infusing World Modeling into Generalist Policies via Multiple Future Representation Alignment"
-    authors: Han Zhao, Jingbo Wang, Wenxuan Song, Shuai Chen, <strong>Yang Liu</strong>, Yan Wang, Haoang Li, Donglin Wang
+    authors: Han Zhao<sup>*</sup>, Jingbo Wang<sup>*</sup>, Wenxuan Song<sup>*</sup>, Shuai Chen, <strong>Yang Liu</strong>, Yan Wang, Haoang Li, Donglin Wang
     conference: arXiv, 2026
     arxiv: 2602.17259
     page: https://h-zhao1997.github.io/frappe
