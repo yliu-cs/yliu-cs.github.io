@@ -1,0 +1,112 @@
+{
+  "publications": [
+    {
+      "title": "MMaDA-VLA: Large Diffusion Vision-Language-Action Model with Unified Multi-Modal Instruction and Generation",
+      "authors": "**Yang Liu**, Pengxiang Ding, Tengyue Jiang, Xudong Wang, Wenxuan Song, Minghui Lin, Han Zhao, Hongyin Zhang, Zifeng Zhuang, Wei Zhao, Siteng Huang, Jinkui Shi, Donglin Wang",
+      "venue": "arXiv",
+      "year": "2026",
+      "links": {
+        "homepage": "https://yliu-cs.github.io/MMaDA-VLA",
+        "arxiv": "https://arxiv.org/abs/2603.25406",
+        "code": "https://github.com/yliu-cs/MMaDA-VLA"
+      }
+    },
+    {
+      "title": "FRAPPE: Infusing World Modeling into Generalist Policies via Multiple Future Representation Alignment",
+      "authors": "Han Zhao*, Jingbo Wang*, Wenxuan Song*, Shuai Chen, **Yang Liu**, Yan Wang, Haoang Li, Donglin Wang",
+      "venue": "arXiv",
+      "year": "2026",
+      "links": {
+        "homepage": "https://h-zhao1997.github.io/frappe",
+        "arxiv": "https://arxiv.org/abs/2602.17259",
+        "code": "https://github.com/OpenHelix-Team/frappe"
+      }
+    },
+    {
+      "title": "HiF-VLA: Hindsight, Insight and Foresight through Motion Representation for Vision-Language-Action Models",
+      "authors": "Minghui Lin, Pengxiang Ding, Shu Wang, Zifeng Zhuang, **Yang Liu**, Xinyang Tong, Wenxuan Song, Shangke Lyu, Siteng Huang, Donglin Wang",
+      "venue": "CVPR",
+      "year": "2026",
+      "links": {
+        "homepage": "https://hifvla.github.io",
+        "arxiv": "https://arxiv.org/abs/2512.09928",
+        "code": "https://github.com/OpenHelix-Team/HiF-VLA",
+        "bibtex": "https://dblp.org/rec/journals/corr/abs-2512-09928.html?view=bibtex"
+      }
+    },
+    {
+      "title": "SSR: Enhancing Depth Perception in Vision-Language Models via Rationale-Guided Spatial Reasoning",
+      "authors": "**Yang Liu***, Ming Ma*, Xiaomin Yu*, Pengxiang Ding*, Han Zhao, Mingyang Sun, Siteng Huang, Donglin Wang",
+      "venue": "NeurIPS",
+      "year": "2025",
+      "links": {
+        "homepage": "https://yliu-cs.github.io/SSR",
+        "arxiv": "https://arxiv.org/abs/2505.12448",
+        "code": "https://github.com/yliu-cs/SSR",
+        "bibtex": "https://dblp.org/rec/journals/corr/abs-2505-12448.html?view=bibtex"
+      }
+    },
+    {
+      "title": "Long-VLA: Unleashing Long-Horizon Capability of Vision Language Action Model for Robot Manipulation",
+      "authors": "Yiguo Fan*, Pengxiang Ding*, Shuanghao Bai*, Xinyang Tong*, Yuyang Zhu, Hongchao Lu, Fengqi Dai, Wei Zhao, **Yang Liu**, Siteng Huang, Zhaoxin Fan, Badong Chen, Donglin Wang",
+      "venue": "CoRL",
+      "year": "2025",
+      "links": {
+        "homepage": "https://long-vla.github.io",
+        "arxiv": "https://arxiv.org/abs/2508.19958",
+        "bibtex": "https://dblp.org/rec/journals/corr/abs-2508-19958.html?view=bibtex"
+      }
+    },
+    {
+      "title": "OpenHelix: A Short Survey, Empirical Analysis, and Open-Source Dual-System VLA Model for Robotic Manipulation",
+      "authors": "Can Cui*, Pengxiang Ding*, Wenxuan Song, Shuanghao Bai, Xinyang Tong, Zirui Ge, Runze Suo, Wanqi Zhou, **Yang Liu**, Bofang Jia, Han Zhao, Siteng Huang, Donglin Wang",
+      "venue": "arXiv",
+      "year": "2025",
+      "links": {
+        "homepage": "https://openhelix-robot.github.io",
+        "arxiv": "https://arxiv.org/abs/2505.03912",
+        "code": "https://github.com/OpenHelix-robot/OpenHelix",
+        "bibtex": "https://dblp.org/rec/journals/corr/abs-2505-03912.html?view=bibtex"
+      }
+    },
+    {
+      "title": "PiTe: Pixel-Temporal Alignment for Large Video-Language Model",
+      "authors": "**Yang Liu***, Pengxiang Ding*, Siteng Huang, Min Zhang, Han Zhao, Donglin Wang",
+      "venue": "ECCV",
+      "year": "2024",
+      "note": "Oral",
+      "links": {
+        "homepage": "https://yliu-cs.github.io/PiTe",
+        "doi": "https://doi.org/10.1007/978-3-031-72652-1_10",
+        "code": "https://github.com/yliu-cs/PiTe",
+        "dataset": "https://yliu-cs.github.io/PiTe",
+        "bibtex": "https://dblp.org/rec/conf/eccv/LiuDHZZW24.html?view=bibtex"
+      }
+    },
+    {
+      "title": "Comment-aided Video-Language Alignment via Contrastive Pre-training for Short-form Video Humor Detection",
+      "authors": "**Yang Liu**, Tongfei Shen, Dong Zhang, Qingying Sun, Shoushan Li, Guodong Zhou",
+      "venue": "ICMR",
+      "year": "2024",
+      "links": {
+        "homepage": "https://github.com/yliu-cs/CVLA",
+        "doi": "https://doi.org/10.1145/3652583.3658094",
+        "code": "https://github.com/yliu-cs/CVLA",
+        "dataset": "https://pan.baidu.com/s/1HLwTlMDG8NnS3yMV3Y5AJA?pwd=3a9x",
+        "bibtex": "https://dblp.org/rec/conf/mir/LiuSZSLZ24.html?view=bibtex"
+      }
+    },
+    {
+      "title": "Comment-Aware Multi-Modal Heterogeneous Pre-Training for Humor Detection in Short-Form Videos",
+      "authors": "**Yang Liu**, Huanqin Ping, Dong Zhang, Qingying Sun, Shoushan Li, Guodong Zhou",
+      "venue": "ECAI",
+      "year": "2023",
+      "links": {
+        "homepage": "https://github.com/yliu-cs/CMHP",
+        "doi": "https://doi.org/10.3233/FAIA230438",
+        "code": "https://github.com/yliu-cs/CMHP",
+        "bibtex": "https://dblp.org/rec/conf/ecai/LiuPZSLZ23.html?view=bibtex"
+      }
+    }
+  ]
+}
