@@ -89,7 +89,6 @@
       "venue": "ICMR",
       "year": "2024",
       "links": {
-        "homepage": "https://github.com/yliu-cs/CVLA",
         "doi": "https://doi.org/10.1145/3652583.3658094",
         "code": "https://github.com/yliu-cs/CVLA",
         "dataset": "https://pan.baidu.com/s/1HLwTlMDG8NnS3yMV3Y5AJA?pwd=3a9x",
@@ -102,7 +101,6 @@
       "venue": "ECAI",
       "year": "2023",
       "links": {
-        "homepage": "https://github.com/yliu-cs/CMHP",
         "doi": "https://doi.org/10.3233/FAIA230438",
         "code": "https://github.com/yliu-cs/CMHP",
         "bibtex": "https://dblp.org/rec/conf/ecai/LiuPZSLZ23.html?view=bibtex"
