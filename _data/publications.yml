@@ -1,4 +1,11 @@
 main:
+  - title: "MMaDA-VLA: Large Diffusion Vision-Language-Action Model with Unified Multi-Modal Instruction and Generation"
+    authors: <strong>Yang Liu</strong>, Pengxiang Ding, Tengyue Jiang, Xudong Wang, Wenxuan Song, Minghui Lin, Han Zhao, Hongyin Zhang, Zifeng Zhuang, Wei Zhao, Siteng Huang, Jinkui Shi, Donglin Wang 
+    conference: arXiv, 2025.
+    arxiv: 2603.25406
+    page: https://yliu-cs.github.io/MMaDA-VLA
+    code: https://github.com/yliu-cs/MMaDA-VLA
+    # bibtex: https://dblp.org/rec/journals/corr/abs-2505-12448.html?view=bibtex
   - title: "SSR: Enhancing Depth Perception in Vision-Language Models via Rationale-Guided Spatial Reasoning"
     authors: <strong>Yang Liu<sup>*</sup></strong>, Ming Ma<sup>*</sup>, Xiaomin Yu<sup>*</sup>, Pengxiang Ding<sup>*</sup>, Han Zhao, Mingyang Sun, Siteng Huang, Donglin Wang
     conference: The Annual Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2025.

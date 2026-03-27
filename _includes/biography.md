@@ -5,4 +5,4 @@ Prior to this, I received my master's degree at [School of Computer Science &amp
 
 My research interest lies in the intersection of EAI (Embodied AI), CV (Computer Vision) and NLP (Natural Language Processing).
 
-📢 I am actively seeking academic internship opportunities within leading enterprises. Please feel free to contact me if you are interested!
+📢 <span style="color:red;">I am actively seeking academic internship opportunities within leading enterprises. Please feel free to contact me if you are interested!</span>
