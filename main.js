@@ -321,53 +321,46 @@ Team collaboration application via Electron-Vue and Spring Boot · Mapping appli
 // Load Content from External Files or Embedded
 // ============================================
 async function loadContent() {
-    // Load markdown-based content from content/ directory
-    const contentMap = [
-        { id: 'biography-content', file: 'content/biography.md', parser: 'parse' },
+    // Parallel fetch all content files (biography is inlined for instant render)
+    const fetchMap = [
         { id: 'news-content', file: 'content/news.md', parser: 'parseNews' },
         { id: 'experience-content', file: 'content/experience.md', parser: 'parseExperience' },
         { id: 'awards-content', file: 'content/awards.md', parser: 'parseAwards' },
-        { id: 'services-content', file: 'content/services.md', parser: 'parseServices' }
+        { id: 'services-content', file: 'content/services.md', parser: 'parseServices' },
+        { file: 'content/publications.json', type: 'json' }
     ];
-    
-    for (const item of contentMap) {
-        const element = document.getElementById(item.id);
-        if (!element) continue;
-        
-        try {
-            const response = await fetch(item.file);
-            if (response.ok) {
-                const md = await response.text();
-                if (md && Markdown[item.parser]) {
-                    element.innerHTML = Markdown[item.parser](md);
+
+    const results = await Promise.all(
+        fetchMap.map(item =>
+            fetch(item.file)
+                .then(res => res.ok ? res.text() : null)
+                .catch(() => null)
+        )
+    );
+
+    // Render markdown content (skip index 0 = news, then 1-3 for other content)
+    fetchMap.forEach((item, index) => {
+        // news is at index 0, experience 1, awards 2, services 3
+        const mdIndex = index;
+        const text = results[mdIndex];
+        if (!text) return;
+
+        if (item.type === 'json') {
+            const pubContent = document.getElementById('publications-content');
+            if (pubContent) {
+                try {
+                    pubContent.innerHTML = PublicationsRenderer.render(JSON.parse(text));
+                } catch (e) {
+                    console.error('Error parsing publications:', e);
                 }
-            } else {
-                console.error(`Failed to load ${item.file}: ${response.status}`);
             }
-        } catch (error) {
-            console.error(`Error loading ${item.file}:`, error);
+        } else if (item.parser) {
+            const element = document.getElementById(item.id);
+            if (element) {
+                element.innerHTML = Markdown[item.parser](text);
+            }
         }
-    }
-
-    // Load publications from JSON
-    await loadPublications();
-}
-
-async function loadPublications() {
-    const element = document.getElementById('publications-content');
-    if (!element) return;
-    
-    try {
-        const response = await fetch('content/publications.json');
-        if (response.ok) {
-            const json = await response.json();
-            element.innerHTML = PublicationsRenderer.render(json);
-        } else {
-            console.error(`Failed to load publications.json: ${response.status}`);
-        }
-    } catch (error) {
-        console.error('Error loading publications.json:', error);
-    }
+    });
 }
 
 // ============================================
