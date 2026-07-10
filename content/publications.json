@@ -3,7 +3,7 @@
     {
       "title": "MMaDA-VLA: Large Diffusion Vision-Language-Action Model with Unified Multi-Modal Instruction and Generation",
       "authors": "**Yang Liu**, Pengxiang Ding, Tengyue Jiang, Xudong Wang, Wenxuan Song, Minghui Lin, Han Zhao, Hongyin Zhang, Zifeng Zhuang, Wei Zhao, Siteng Huang, Jinkui Shi, Donglin Wang",
-      "venue": "arXiv",
+      "venue": "ACM MM",
       "year": "2026",
       "links": {
         "homepage": "https://yliu-cs.github.io/MMaDA-VLA",

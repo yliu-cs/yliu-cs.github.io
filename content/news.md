@@ -1,6 +1,6 @@
 ## News
 
-- **[2026.03]** One paper ([MMaDA-VLA](https://yliu-cs.github.io/MMaDA-VLA)) released on arXiv
+- **[2026.07]** One paper ([MMaDA-VLA](https://yliu-cs.github.io/MMaDA-VLA)) got accepted by **ACM MM 2026**
 - **[2026.02]** One paper ([HiF-VLA](https://hifvla.github.io/)) got accepted by **CVPR 2026**
 - **[2026.02]** One paper ([FRAPPE](https://h-zhao1997.github.io/frappe)) released on arXiv
 - **[2025.09]** One paper ([SSR](https://yliu-cs.github.io/SSR)) got accepted by **NeurIPS 2025**
