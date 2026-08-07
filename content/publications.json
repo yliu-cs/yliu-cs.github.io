@@ -8,7 +8,8 @@
       "links": {
         "homepage": "https://yliu-cs.github.io/MMaDA-VLA",
         "arxiv": "https://arxiv.org/abs/2603.25406",
-        "code": "https://github.com/yliu-cs/MMaDA-VLA"
+        "code": "https://github.com/yliu-cs/MMaDA-VLA",
+        "bibtex": "https://dblp.org/rec/journals/corr/abs-2603-25406.html?view=bibtex"
       }
     },
     {
@@ -19,7 +20,8 @@
       "links": {
         "homepage": "https://h-zhao1997.github.io/frappe",
         "arxiv": "https://arxiv.org/abs/2602.17259",
-        "code": "https://github.com/OpenHelix-Team/frappe"
+        "code": "https://github.com/OpenHelix-Team/frappe",
+        "bibtex": "https://dblp.org/rec/journals/corr/abs-2602-17259.html?view=bibtex"
       }
     },
     {
@@ -41,9 +43,9 @@
       "year": "2025",
       "links": {
         "homepage": "https://yliu-cs.github.io/SSR",
-        "arxiv": "https://arxiv.org/abs/2505.12448",
+        "doi": "https://doi.org/10.52202/085713-4131",
         "code": "https://github.com/yliu-cs/SSR",
-        "bibtex": "https://dblp.org/rec/journals/corr/abs-2505-12448.html?view=bibtex"
+        "bibtex": "https://dblp.org/rec/conf/nips/LiuMYDZSHW25.html?view=bibtex"
       }
     },
     {
