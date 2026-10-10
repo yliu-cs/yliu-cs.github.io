@@ -13,6 +13,8 @@ Advisor: [Lec. Zhen Wang](http://software.henu.edu.cn/info/1327/2254.htm)
 ACM-ICPC Training Team Captain (2019-2020) · Scholarship & Merit Student (2018-2020) · Excellent Graduates (2021)
 
 ### Internships
+**Robotics X, Tencent** · Research Intern · 2026.10 - Present
+
 **Machine Intelligence Laboratory (MiLAB), Westlake University** · Visiting Intern · 2023.12 - 2024.08  
 Advisor: [Prof. Donglin Wang](https://www.westlake.edu.cn/faculty/donglin-wang.html)  
 Collaborated with [Ph.D. Siteng Huang](https://kyonhuang.top) & [Ph.D. Stu. Pengxiang Ding](https://dingpx.github.io)  
