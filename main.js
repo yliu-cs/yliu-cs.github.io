@@ -260,7 +260,7 @@ const Markdown = {
 // Embedded Content (Fallback when fetch fails)
 // ============================================
 const EmbeddedContent = {
-    biography: `I am a second-year Ph.D. student at [MiLab](https://milab.westlake.edu.cn), School of Engineering, Westlake University, advised by [Assoc. Prof. Donglin Wang](https://www.westlake.edu.cn/faculty/donglin-wang.html). Prior to this, I received my master's degree at School of Computer Science & Technology, Soochow University, advised by [Prof. Shoushan Li](https://scholar.google.com.hk/citations?user=ZRGSxdUAAAAJ) and [Assoc. Prof. Dong Zhang](https://scholar.google.com/citations?user=1E_WmCUAAAAJ). I received my bachelor's degree from School of Software, Henan University, advised by [Lec. Zhen Wang](http://software.henu.edu.cn/info/1327/2254.htm).\n\nMy research interest lies in the intersection of **Embodied AI (EAI)**, **Computer Vision (CV)**, and **Natural Language Processing (NLP)**.\n\n📢 **I am actively seeking academic internship opportunities within leading enterprises.** Please feel free to contact me if you are interested!`,
+    biography: `I am a third-year Ph.D. student at [MiLab](https://milab.westlake.edu.cn), School of Engineering, Westlake University, advised by [Assoc. Prof. Donglin Wang](https://www.westlake.edu.cn/faculty/donglin-wang.html). Prior to this, I received my master's degree at School of Computer Science & Technology, Soochow University, advised by [Prof. Shoushan Li](https://scholar.google.com.hk/citations?user=ZRGSxdUAAAAJ) and [Assoc. Prof. Dong Zhang](https://scholar.google.com/citations?user=1E_WmCUAAAAJ). I received my bachelor's degree from School of Software, Henan University, advised by [Lec. Zhen Wang](http://software.henu.edu.cn/info/1327/2254.htm).\n\nMy research interest lies in the intersection of **Embodied AI (EAI)**, **Computer Vision (CV)**, and **Natural Language Processing (NLP)**.\n\n📢 **I am actively seeking academic internship opportunities within leading enterprises.** Please feel free to contact me if you are interested!`,
 
     news: `## News\n\n- **[2026.03]** One paper ([MMaDA-VLA](https://yliu-cs.github.io/MMaDA-VLA)) released on arXiv\n- **[2026.02]** One paper ([HiF-VLA](https://hifvla.github.io/)) got accepted by **CVPR 2026**\n- **[2026.02]** One paper ([FRAPPE](https://h-zhao1997.github.io/frappe)) released on arXiv\n- **[2025.09]** One paper ([SSR](https://yliu-cs.github.io/SSR)) got accepted by **NeurIPS 2025**\n- **[2025.08]** One paper ([Long-VLA](https://long-vla.github.io)) got accepted by **CoRL 2025**\n- **[2025.05]** One paper ([OpenHelix](https://openhelix-robot.github.io)) released on arXiv\n- **[2024.07]** One paper ([PiTe](https://doi.org/10.1007/978-3-031-72652-1_10)) got accepted by **ECCV 2024** (_Oral_)`,
 
@@ -321,8 +321,9 @@ Team collaboration application via Electron-Vue and Spring Boot · Mapping appli
 // Load Content from External Files or Embedded
 // ============================================
 async function loadContent() {
-    // Parallel fetch all content files (biography is inlined for instant render)
+    // Keep the inline biography for first paint, then refresh it from Markdown.
     const fetchMap = [
+        { id: 'biography-content', file: 'content/biography.md', parser: 'parse' },
         { id: 'news-content', file: 'content/news.md', parser: 'parseNews' },
         { id: 'experience-content', file: 'content/experience.md', parser: 'parseExperience' },
         { id: 'awards-content', file: 'content/awards.md', parser: 'parseAwards' },
@@ -338,11 +339,9 @@ async function loadContent() {
         )
     );
 
-    // Render markdown content (skip index 0 = news, then 1-3 for other content)
+    // Render each response with its matching content definition.
     fetchMap.forEach((item, index) => {
-        // news is at index 0, experience 1, awards 2, services 3
-        const mdIndex = index;
-        const text = results[mdIndex];
+        const text = results[index];
         if (!text) return;
 
         if (item.type === 'json') {
