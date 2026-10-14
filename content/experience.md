@@ -3,6 +3,7 @@
 ### Education
 **Ph.D. in Electronic Science and Technology** · Westlake University · 2024.09 - Present  
 Advisor: [Assoc. Prof. Donglin Wang](https://www.westlake.edu.cn/faculty/donglin-wang.html)
+National Scholarship (2026)
 
 **M.S. in Computer Science and Technology** · Soochow University · 2021.09 - 2024.06  
 Advisor: [Prof. Shoushan Li](https://scholar.google.com.hk/citations?user=ZRGSxdUAAAAJ), [Assoc. Prof. Dong Zhang](https://scholar.google.com/citations?user=1E_WmCUAAAAJ)  
