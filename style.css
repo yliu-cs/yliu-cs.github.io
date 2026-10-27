@@ -8,6 +8,7 @@
     --bg-secondary: #F5EFE6;
     --bg-tertiary: #EDE4D3;
     --bg-card: #FFFFFF;
+    --bg-nav: rgba(253, 248, 240, 0.95);
     
     --text-primary: #1A1614;
     --text-secondary: #4A4239;
@@ -37,6 +38,7 @@
         --bg-secondary: #242019;
         --bg-tertiary: #2E2820;
         --bg-card: #2A2420;
+        --bg-nav: rgba(26, 23, 20, 0.95);
         
         --text-primary: #F5EFE6;
         --text-secondary: #D4C8B8;
@@ -96,7 +98,7 @@ a:hover {
     left: 0;
     right: 0;
     z-index: 1000;
-    background-color: rgba(253, 248, 240, 0.95);
+    background-color: var(--bg-nav);
     backdrop-filter: blur(12px);
     border-bottom: 1px solid var(--border-light);
 }
@@ -202,6 +204,32 @@ a:hover {
 
 .section-header-compact {
     margin-bottom: 1rem;
+}
+
+.content-error {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+}
+
+.content-retry {
+    margin-left: 0.5rem;
+    border: none;
+    background: none;
+    color: var(--accent-primary);
+    font: inherit;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.content-retry:focus-visible {
+    outline: 2px solid var(--accent-primary);
+    outline-offset: 3px;
+    border-radius: 2px;
+}
+
+.content-retry:disabled {
+    opacity: 0.6;
+    cursor: wait;
 }
 
 /* ============================================
@@ -686,7 +714,7 @@ a:hover {
    ============================================ */
 @media (max-width: 900px) {
     .news-list {
-        grid-template-columns: 1fr;
+        column-count: 1;
     }
 }
 
@@ -796,6 +824,19 @@ a:hover {
    Print Styles
    ============================================ */
 @media print {
+    :root {
+        --bg-primary: #FFFFFF;
+        --bg-secondary: #FFFFFF;
+        --bg-tertiary: #FFFFFF;
+        --bg-card: #FFFFFF;
+        --text-primary: #000000;
+        --text-secondary: #333333;
+        --text-tertiary: #444444;
+        --text-muted: #555555;
+        --border-light: #CCCCCC;
+        --border-medium: #CCCCCC;
+    }
+
     .nav, .back-to-top, .status-line {
         display: none;
     }
@@ -813,6 +854,12 @@ a:hover {
         background: white;
         color: black;
         font-size: 11pt;
+    }
+
+    .pub-authors {
+        white-space: normal;
+        overflow: visible;
+        text-overflow: clip;
     }
 }
 

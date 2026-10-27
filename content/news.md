@@ -1,5 +1,6 @@
 ## News
 
+- **[2026.10]** One paper ([HuGe](https://yliu-cs.github.io/HuGe)) released on arXiv
 - **[2026.07]** One paper ([MMaDA-VLA](https://yliu-cs.github.io/MMaDA-VLA)) got accepted by **ACM MM 2026 (Oral)**
 - **[2026.02]** One paper ([HiF-VLA](https://hifvla.github.io/)) got accepted by **CVPR 2026**
 - **[2026.02]** One paper ([FRAPPE](https://h-zhao1997.github.io/frappe)) released on arXiv

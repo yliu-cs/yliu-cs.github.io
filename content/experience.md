@@ -15,6 +15,7 @@ ACM-ICPC Training Team Captain (2019-2020) · Scholarship & Merit Student (2018-
 
 ### Internships
 **Robotics X, Tencent** · Research Intern · 2026.10 - Present
+Collaborated with [Ph.D. Yuchen Zhou](https://yuchen2199.github.io)
 
 **Machine Intelligence Laboratory (MiLAB), Westlake University** · Visiting Intern · 2023.12 - 2024.08  
 Advisor: [Prof. Donglin Wang](https://www.westlake.edu.cn/faculty/donglin-wang.html)  
