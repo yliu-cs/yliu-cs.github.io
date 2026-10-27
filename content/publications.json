@@ -2,7 +2,7 @@
   "publications": [
     {
       "title": "HuGe: Scaling Humanoid Generalist Vision-Language-Action Models with Egocentric Experience ",
-      "authors": "Yang Liu*, Jiacheng Liu*, Hengtao Li*, Yuheng Huang, Zijian Yang, Ji Dai, Maoxin Wang, Yi Gao, Qishen Wang, Baohua Yin, Peiyang Li, Shuanghao Bai, Mingyang Sun, Pengxiang Ding, Jianqin Yin, Lixin Yang, Donglin Wang",
+      "authors": "**Yang Liu***, Jiacheng Liu*, Hengtao Li*, Yuheng Huang, Zijian Yang, Ji Dai, Maoxin Wang, Yi Gao, Qishen Wang, Baohua Yin, Peiyang Li, Shuanghao Bai, Mingyang Sun, Pengxiang Ding, Jianqin Yin, Lixin Yang, Donglin Wang",
       "venue": "arXiv",
       "year": "2026",
       "links": {
