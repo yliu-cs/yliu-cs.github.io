@@ -438,9 +438,7 @@ a:hover {
 .pub-authors {
     font-size: 0.85rem;
     color: var(--text-secondary);
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    white-space: normal;
     margin-bottom: 0.125rem;
 }
 
